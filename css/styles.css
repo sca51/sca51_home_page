@@ -3,3 +3,8 @@ body {
   max-width: 1200px;
   margin: auto;
 }
+
+.sca-class-section {
+  padding-left: 10px;
+  padding-right: 10px;
+}
