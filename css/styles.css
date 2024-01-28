@@ -1,9 +1,5 @@
 body {
-  /* background-color: #131313; */
-}
-
-.sca51-profile-img {
-  border-radius: 50%;
-  max-width: 100px;
-  max-height: 100px;
+  background-color: #FEFEFE;
+  max-width: 1200px;
+  margin: auto;
 }
