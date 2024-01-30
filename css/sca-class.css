@@ -1,0 +1,20 @@
+.sca-class-section {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.sca-class-section-body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sca-class-subsection {
+  flex: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .sca-class-subsection {
+    flex: 100%;
+  }
+
+}
