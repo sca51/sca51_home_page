@@ -1,0 +1,24 @@
+.sca-resource {
+  display: flex;
+}
+
+.sca-resource-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  width: auto;
+  padding: 10px;
+}
+
+.sca-resource-logo img {
+  border-radius: 10%;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.sca-resource-body {
+  justify-content: left;
+  align-items: center;
+  width: 100%
+}
