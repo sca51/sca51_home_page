@@ -1,6 +1,9 @@
 .sca-resource {
   display: flex;
   background-color: ghostwhite; 
+  border-radius: 10%;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .sca-resource-logo {
