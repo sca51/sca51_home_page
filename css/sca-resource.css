@@ -38,6 +38,7 @@
   .sca-resource-body {
     justify-content: center;
     text-align: center;
+    padding-bottom: 10px;
   }
 
 }
