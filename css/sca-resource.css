@@ -26,3 +26,18 @@
   align-items: center;
   width: 100%
 }
+
+@media screen and (max-width: 600px) {
+  .sca-resource {
+    display: block;
+  }
+  .sca-resource-logo {
+    width: 100%;
+  }
+
+  .sca-resource-body {
+    justify-content: center;
+    text-align: center;
+  }
+
+}
