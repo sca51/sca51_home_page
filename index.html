@@ -1,36 +1,57 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" html-theme="light">
   <head>
     <title>SCA51 NRS Projects Home</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
     <link href="https://nrs-projects.humboldt.edu/~st10/styles/normalize.css" type="text/css" rel="stylesheet" />
-    <link href="sca51_home_page/css/styles.css" type="text/css" rel="stylesheet"  />
-    <link href="sca51_home_page/css/sca-profile.css" type="text/css" rel="stylesheet"  />
-    <link href="sca51_home_page/css/sca-class.css" type="text/css" rel="stylesheet"  />
-    <link href="sca51_home_page/css/sca-resource.css" type="text/css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" type="text/css" rel="stylesheet" />
+    <link href="css/styles.css" type="text/css" rel="stylesheet"  />
+    <link href="css/sca-class.css" type="text/css" rel="stylesheet"  />
+    <script src="js/toggle-theme.js" defer="defer"></script>
   </head>
   <body>
 
-    <!-- Student Profile Section -->
-    <div class="sca-profile">
-      <div class="sca-profile-avatar">
-        <img src="sca51_home_page/images/sallen.jpg" alt="profile image" />
-      </div>
-      <div class="sca-profile-details">
-        <div>
-          <h1>SCA51</h1>
-          <p>
-            Sean Casey Allen<br />sca51@humboldt.edu
-          </p>
-          <p>
-            <a href="https://github.com/sca51" target="_blank"><i class="bi bi-github"></i></a>
-            <a href="https://stackoverflow.com/users/2428982/gallonallen" target="_blank"><i class="bi bi-stack-overflow"></i></a>
-          </p>
-        </div>
-      </div>
+    <div class="container">
+      
+      <header class="border-bottom">
+        <a href="index.html">Sean C. Allen</a>
+        <span>
+          <form id="theme-control">
+            <input type="radio" id="dark-theme" name="html-theme" value="dark">
+            <label for="dark-theme">dark</label>
+            <input type="radio" id="light-theme" name="html-theme" value="light" checked="checked">
+            <label for="light-theme">light</label><br>
+          </form>
+        </span>        
+      </header>
+
+      <nav class="border-bottom">
+        <a href="cs_328.html">CS 328</a>
+        <a href="cs_346.html">CS 346</a>
+        <a href="cs_449.html">CS 449</a>
+        <a href="cs_461.html">CS 461</a>
+        <a href="gsp_101.html">GSP 101</a>
+        <a href="gsp_270.html">GSP 270</a>
+      </nav>
+
     </div>
+
+    <main class="container">
+
+      <div class="rounded bg2">
+        <h1>Welcome to my <span style="color: var(--humboldt-yellow)">Cal Poly</span> <span style="color: var(--humboldt-green)">Humboldt</span> home page!</h1>
+        <p>My name is Sean Allen, and I am delighted to welcome you to my student profile page. I am currently pursuing a Computer Science, B.S. at Cal Poly Humboldt, and I am passionate about software engineering.</p>
+        <p><a href="profile.html">More about me...</a></p>
+      </div>
+
+    </main>
+
+    
+
+    <!-- Student Profile Section -->
+    
     
     <!-- CS 328 Section -->
     <section id="cs-328" class="sca-class-section">
@@ -74,106 +95,7 @@
     </section>
 
     <!-- GSP 270 Section -->
-    <section id="gsp-270" class="sca-class-section">
-
-      <div class="sca-class-section-header">
-        <hr />
-        <h2>GSP 270</h2>
-      </div>
-  
-      <div class="sca-class-section-body">
-        <h3>Data sources</h3>
-        <ul>
-
-          <li class="sca-resource">
-            <div class="sca-resource-logo"></div>
-            <div class="sca-resource-body">
-              <p>
-                <strong>IPUMS</strong>
-              </p>
-              <p>IPUMS provides census and survey data from around the world integrated across time and space. IPUMS integration and documentation makes it easy to study change, conduct comparative research, merge information across data types, and analyze individuals within family and community contexts. Data and services available free of charge.</p>
-              <p><small><a href="https://www.ipums.org/" target="_blank">https://www.ipums.org/</a></small></p>
-            </div>
-          </li>
-
-          <li class="sca-resource">
-            <div class="sca-resource-logo"></div>
-            <div class="sca-resource-body">
-              <p>
-                <strong>Northern California Earthquake Data Center (NCEDC)</strong>
-              </p>
-              <p></p>
-              <p><small><a href="http://ncedc.org/ncedc/catalog-search.html" target="_blank">http://ncedc.org/ncedc/catalog-search.html</a></small></p>
-            </div>
-          </li>
-
-          <li class="sca-resource">
-            <div class="sca-resource-logo">
-              <img src="sca51_home_page/images/abc_logo.jpg" alt="Alcohol Beverage Control" />
-            </div>
-            <div class="sca-resource-body">
-              <p>
-                <strong>California Department of Alcohol Beverage Control</strong> -   
-                <cite>License Lookup Service</cite>
-              </p>
-              <p>Formerly known as the License Query System (LQS), the license lookup service provides information about applicants and licensed individuals and businesses that are regulated by the California Department of Alcoholic Beverage Control.</p>
-              <p><small><a href="https://www.abc.ca.gov/licensing/license-lookup/" target="_blank">https://www.abc.ca.gov/licensing/license-lookup/</a></small></p>              
-            </div>          
-          </li>
-
-          <li class="sca-resource">
-            <div class="sca-resource-logo">
-              <img src="sca51_home_page/images/natural_earth_logo.png" alt="Natural Earth" />
-            </div>
-            <div class="sca-resource-body">
-              <p>
-                <strong>Natural Earth</strong>
-              </p>
-              <p>Natural Earth is a public domain map dataset available at 1:10m, 1:50m, and 1:110 million scales. Featuring tightly integrated vector and raster data, with Natural Earth you can make a variety of visually pleasing, well-crafted maps with cartography or GIS software.</p>
-              <p><small><a href="https://www.naturalearthdata.com/" target="_blank">https://www.naturalearthdata.com/</a></small></p>              
-            </div>
-          </li>
-
-          <li class="sca-resource">
-            <div class="sca-resource-logo">
-              <img src="sca51_home_page/images/usgs_logo.jpg" alt="USGS" />
-            </div>
-            <div class="sca-resource-body">
-              <p>
-                <strong>USGS</strong> - 
-                <cite>Earth Explorer</cite>
-              </p>
-              <p>EarthExplorer (EE) provides online search, browse display, metadata export, and data download for earth science data from the archives of the U.S. Geological Survey (USGS). EE provides an enhanced user interface using state-of-the-art technologies for searching, viewing, and downloading data.</p>
-              <p><small><a href="https://earthexplorer.usgs.gov/" target="_blank">https://earthexplorer.usgs.gov/</a></small></p>              
-            </div>
-          </li>
-
-          <li class="sca-resource">
-            <div class="sca-resource-logo"></div>
-            <div class="sca-resource-body">
-              <p>
-                <strong>US Census</strong>
-              </p>
-              <p>Learn about America's communities through our data profiles. They cover 100,000+ different geographies: states, counties, places, tribal areas, zip codes, and congressional districts. For each, we cover topics like education, employment, health, and housing just to name a few. </p>
-              <p><small><a href="https://data.census.gov/" target="_blank">https://data.census.gov/</a></small></p>
-            </div>
-          </li>
-
-          <li class="sca-resource">
-            <div class="sca-resource-logo"></div>
-            <div class="sca-resource-body">
-              <p>
-                <strong>Kaggle</strong>
-              </p>
-              <p>Join over 16M+ machine learners to share, stress test, and stay up-to-date on all the latest ML techniques and technologies. Discover a huge repository of community-published models, data & code for your next project.</p>
-              <p><small><a href="https://www.kaggle.com/datasets" target="_blank">https://www.kaggle.com/datasets</a></small></p>
-            </div>
-          </li>
-          
-        </ul>
-      </div>
-
-    </section>
+   
 
     <section id="bibliography">
       <hr />
@@ -191,7 +113,7 @@
 
     <!-- footer Section -->
     <footer>
-      <hr />
+      <p><i class="bi bi-cc-circle"></i> 2024 Sean Allen.</p>
       <p>
         Validate by pasting .xhtml copy's URL into <br />
         <a href="https://html5.validator.nu/">https://html5.validator.nu/</a>

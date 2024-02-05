@@ -1,5 +1,51 @@
+:root, [html-theme="light"] {
+  --humboldt-yellow: #F0C640;
+  --humboldt-green: #2C4E48;
+  --sca-bg: white;
+  --sca-bg-secondary: gainsboro;
+  --sca-border-color: black;
+  --sca-border-style: solid;
+  --sca-border-width: 1px;
+  --sca-color: black;
+}
+
+[html-theme="dark"] {
+  --sca-bg: black;
+  --sca-bg-secondary: slategray;
+  --sca-border-color: white;
+  --sca-color: white;
+}
+
 body {
-  background-color: #FEFEFE;
+  background-color: var(--sca-bg);
+  color: var(--sca-color);
+}
+
+footer {
+  background-color: var(--sca-bg-secondary);
+  text-align: center;
+}
+
+.bg1 {
+  background-color: var(--sca-bg);
+}
+
+.bg2 {
+  background-color: var(--sca-bg-secondary);
+}
+
+.border-bottom {
+  border-bottom: var(--sca-border-width) var(--sca-border-style) var(--sca-border-color);
+}
+
+.container {
   max-width: 1200px;
   margin: auto;
+}
+
+.rounded {
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px;
 }
