@@ -43,6 +43,14 @@ footer {
   margin: auto;
 }
 
+.cph-green {
+  color: var(--humboldt-green);
+}
+
+.cph-yellow {
+  color: var(--humboldt-yellow);
+}
+
 .rounded {
   border-radius: 5px;
   margin-bottom: 10px;
