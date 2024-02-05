@@ -61,6 +61,27 @@ header a {
   color: var(--humboldt-yellow);
 }
 
+.nav-list {
+  display: flex;
+  text-align: center;
+}
+
+.nav-list li {
+  display: block;
+  list-style: none;
+  width: 100%;
+}
+
+.nav-list li a {
+  color: var(--sca-color);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav-list li a:hover {
+  color: firebrick;
+}
+
 .rounded {
   border-radius: 5px;
   margin-bottom: 10px;
