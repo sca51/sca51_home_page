@@ -1,99 +1,109 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" html-theme="light">
-  <head>
-    <title>SCA51 NRS Projects Home</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
-    <link href="https://nrs-projects.humboldt.edu/~st10/styles/normalize.css" type="text/css" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" type="text/css" rel="stylesheet" />
-    <link href="css/styles.css" type="text/css" rel="stylesheet"  />
-    <script src="js/toggle-theme.js" defer="defer"></script>
-  </head>
-  <body>
+
+<head>
+  <title>SCA51 NRS Projects Home</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link href="https://nrs-projects.humboldt.edu/~st10/styles/normalize.css" type="text/css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" type="text/css"
+    rel="stylesheet" />
+  <link href="css/styles.css" type="text/css" rel="stylesheet" />
+  <script src="js/toggle-theme.js" defer="defer"></script>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header class="border-bottom">
+      <a href="./">Sean C. Allen</a>
+      <span>
+        <form id="theme-control">
+          <input type="radio" id="dark-theme" name="html-theme" value="dark">
+          <label for="dark-theme">dark</label>
+          <input type="radio" id="light-theme" name="html-theme" value="light" checked="checked">
+          <label for="light-theme">light</label><br>
+        </form>
+      </span>
+    </header>
+
+    <nav class="border-bottom">
+      <ul class="nav-list">
+        <li><a href="profile.html">About</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="#">Maps & Data</a></li>
+        <li><a href="#">Books</a></li>
+      </ul>
+    </nav>
+
+  </div>
+
+  <main>
 
     <div class="container">
-      
-      <header class="border-bottom">
-        <a href="./">Sean C. Allen</a>
-        <span>
-          <form id="theme-control">
-            <input type="radio" id="dark-theme" name="html-theme" value="dark">
-            <label for="dark-theme">dark</label>
-            <input type="radio" id="light-theme" name="html-theme" value="light" checked="checked">
-            <label for="light-theme">light</label><br>
-          </form>
-        </span>        
-      </header>
-
-      <nav class="border-bottom">
-        <ul class="nav-list">
-          <li><a href="profile.html">About</a></li>
-          <li><a href="courses.html">Courses</a></li>
-          <li><a href="#">Maps & Data</a></li>
-          <li><a href="#">Books</a></li>
-        </ul>
-      </nav>
-
+      <div class="rounded bg2" id="welcome">
+        <h1>Welcome to my <strong class="cph-yellow">Cal Poly</strong> <strong class="cph-green">Humboldt</strong> home
+          page!</h1>
+        <p>My name is Sean Allen, and I am delighted to welcome you to my student profile page. I am currently pursuing
+          a Computer Science, B.S. at Cal Poly Humboldt, and I am passionate about software engineering.</p>
+        <p><a href="profile.html">More about me...</a></p>
+      </div>
     </div>
 
-    <main>
-
-      <div class="container">
-        <div class="rounded bg2" id="welcome">
-          <h1>Welcome to my <strong class="cph-yellow">Cal Poly</strong> <strong class="cph-green">Humboldt</strong> home page!</h1>
-          <p>My name is Sean Allen, and I am delighted to welcome you to my student profile page. I am currently pursuing a Computer Science, B.S. at Cal Poly Humboldt, and I am passionate about software engineering.</p>
-          <p><a href="profile.html">More about me...</a></p>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="course-tile-set">
-          <div class="course-tile">
-            <div class="course-tile-content rounded">
-              <p>Computer Science</p>
-              <h2>Web Apps using Databases</h2>
-              <p>CS 328 - Spring 2024</p>
-              <p>course description</p>
-              <p><a href="cs_328.html">course home page</a></p>
-            </div>
+    <div class="container">
+      <div class="course-tile-set">
+        <div class="course-tile">
+          <div class="course-tile-content rounded">
+            <p>Computer Science</p>
+            <h2>Web Apps using Databases</h2>
+            <p>CS 328 - Spring 2024</p>
+            <p>Building applications atop databases. N-tiered architecture; database tier: stored procedures/functions;
+              presentation tier: web GUIs; application tier: controlling web-to-database interactions.</p>
+            <p><a href="cs_328.html">my cs328 page</a></p>
           </div>
-          <div class="course-tile">
-            <div class="course-tile-content rounded">
-              <p>Geospatial Science &amp; Technology</p>
-              <h2>Geographic Information Science</h2>
-              <p>GSP 270 - Spring 2024</p>
-              <p>course description</p>
-              <p><a href="gsp_270.html">course home page</a></p>
-            </div>
+        </div>
+        <div class="course-tile">
+          <div class="course-tile-content rounded">
+            <p>Geospatial Science &amp; Technology</p>
+            <h2>Geographic Information Science</h2>
+            <p>GSP 270 - Spring 2024</p>
+            <p>Introductory course in Geographic Information Science and spatial analysis involving collection,
+              manipulation, display, and analysis of geographically referenced data. Raster and Vector data, overlays,
+              buffer, proximity analysis and SQL queries.</p>
+            <p><a href="gsp_270.html">my gsp270 page</a></p>
           </div>
         </div>
       </div>
-      
-      <div class="bg2">
-        <div class="container">
-          <section id="bibliography">            
-            <h2>Bibliography</h2>
-            <p>A collection of my favorite books</p>
-            <ol>
-              <li>Monk, Simon. <em>The Maker's Guide to the Zombie Apocalypse.</em> No Starch Press, 2015.</li>
-              <li>Thomas, David, and Andrew Hunt. <em>The Pragmatic Programmer.</em> Addison-Wesley Professional, 2019.</li>
-              <li>Karwin, Bill. <em>SQL Antipatterns.</em> 2010.</li>
-              <li>Frain, Ben. <em>Responsive Web Design with HTML5 and CSS.</em> Packt Publisiong Ltd, 2022.</li>
-              <li>Kuepper, Ralph. <em>Hands-On Swift 5 Microservices Development.</em> Pact Publishing Ltd, 2020.</li>
-            </ol>
-            <p>...and everything from the <a href="https://bignerdranch.com/books/" target="_blank">Big Nerd Ranch</a></p>
-          </section>
-        </div>
+    </div>
+
+    <div class="bg2">
+      <div class="container">
+        <section id="bibliography">
+          <h2>Bibliography</h2>
+          <p>A collection of my favorite books</p>
+          <ol>
+            <li>Monk, Simon. <em>The Maker's Guide to the Zombie Apocalypse.</em> No Starch Press, 2015.</li>
+            <li>Thomas, David, and Andrew Hunt. <em>The Pragmatic Programmer.</em> Addison-Wesley Professional, 2019.
+            </li>
+            <li>Karwin, Bill. <em>SQL Antipatterns.</em> 2010.</li>
+            <li>Frain, Ben. <em>Responsive Web Design with HTML5 and CSS.</em> Packt Publisiong Ltd, 2022.</li>
+            <li>Kuepper, Ralph. <em>Hands-On Swift 5 Microservices Development.</em> Pact Publishing Ltd, 2020.</li>
+          </ol>
+          <p>...and everything from the <a href="https://bignerdranch.com/books/" target="_blank">Big Nerd Ranch</a></p>
+        </section>
       </div>
+    </div>
 
-    </main>
+  </main>
 
-    
 
-    <!-- footer Section -->
-    <footer>
-      <p><i class="bi bi-cc-circle"></i> 2024 Sean Allen.</p>
-    </footer>
-  </body>
+
+  <!-- footer Section -->
+  <footer>
+    <p><i class="bi bi-cc-circle"></i> 2024 Sean Allen.</p>
+  </footer>
+</body>
+
 </html>
