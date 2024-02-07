@@ -52,6 +52,7 @@ header a {
   max-width: 1200px;
   margin: auto;
   margin-top: 5px;
+  padding: 1rem;
 }
 
 .course-heading h1 {
@@ -82,6 +83,43 @@ header a {
   margin-top: 0px;
   margin-bottom: 0px;
   text-transform: uppercase;
+}
+
+.course-table {
+  width: 100%;
+}
+
+table.course-table, .course-table tr, .course-table th, .course-table td {
+    border: thin solid var(--sca-border-color);
+    border-collapse: collapse;
+    padding: 0.25em;
+}
+
+.course-table a {
+  color: var(--sca-color);
+  text-decoration: none;
+}
+
+.course-table a:hover {
+  color: firebrick;
+}
+
+.course-table caption {
+    padding-bottom: 0.1em;
+}
+
+.course-tile-set {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.course-tile {
+  flex: 50%;
+}
+
+.course-tile-content {
+  border: thin solid var(--sca-border-color);
+  margin: 1rem;
 }
 
 .cph-green {
@@ -123,4 +161,27 @@ header a {
 #theme-control {
   display: inline;
   float: right;
+}
+
+#welcome h1 {
+  width: 33%;
+  font-style: italic;
+  text-align: left;
+}
+
+#welcome p {
+  width: 50%;
+  text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+  
+  .course-tile {
+    flex: 100%;
+  }
+
+  #welcome h1, #welcome p {
+    width: 100%;
+    text-align: center;
+  }
 }
