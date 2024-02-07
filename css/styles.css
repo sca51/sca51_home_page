@@ -51,6 +51,37 @@ header a {
 .container {
   max-width: 1200px;
   margin: auto;
+  margin-top: 5px;
+}
+
+.course-heading h1 {
+  display: inline-block;
+  font-style: italic;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.course-heading h1::before {
+  content: "";
+  display: block;
+  background: var(--sca-bg-secondary);
+  height: 5px;
+  width: 100%;
+}
+
+.course-heading h1::after {
+  content: "";
+  display: block;
+  background: var(--sca-bg-secondary);
+  height: 5px;
+  width: 100%;
+}
+
+.course-heading p {
+  font-size: 1.25rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
 }
 
 .cph-green {
