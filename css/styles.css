@@ -132,6 +132,7 @@ table.course-table, .course-table tr, .course-table th, .course-table td {
 
 .nav-list {
   display: flex;
+  padding-left: 0px;
   text-align: center;
 }
 
