@@ -1,9 +1,14 @@
+/*
+  Variables
+*/
+
 :root, [html-theme="light"] {
   --humboldt-yellow: #F0C640;
   --humboldt-green: #2C4E48;
   --sca-bg: white;
   --sca-bg-secondary: gainsboro;
   --sca-border-color: black;
+  --sca-border-color-soft: gainsboro;
   --sca-border-style: solid;
   --sca-border-width: 1px;
   --sca-color: black;
@@ -13,6 +18,7 @@
   --sca-bg: black;
   --sca-bg-secondary: slategray;
   --sca-border-color: white;
+  --sca-border-color-soft: slategray;
   --sca-color: white;
 }
 
@@ -125,7 +131,7 @@ thead {
 
 table, tr, th, td {
     border-collapse: collapse;
-    border-bottom: thin solid var(--sca-bg-secondary);
+    border-bottom: thin solid var(--sca-border-color-soft);
     padding: 0.25em;
 }
 
