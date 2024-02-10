@@ -117,7 +117,6 @@
 
     </main>
 
-    <!--#printenv -->
-    <!--#include virtual="html_parts/footer.html" -->
+    <?php include 'html_parts/footer.php'; ?>
   </body>
 </html>
