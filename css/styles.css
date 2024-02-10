@@ -16,12 +16,12 @@
   --sca-color: white;
 }
 
-a {
-  color: var(--sca-color);
-}
+/* 
+  Top Level Elements
+*/
 
-a:hover {
-  color: firebrick;
+header {
+  text-align: center;
 }
 
 body {
@@ -34,15 +34,35 @@ footer {
   text-align: center;
 }
 
-header {
-  text-align: center;
+/* 
+  Anchors
+*/
+
+a {
+  color: var(--sca-color);
+}
+
+a:hover {
+  color: firebrick;
 }
 
 header a {
-  color: var(--sca-color);
   font-size: 2.25rem;
   text-decoration: none;
 }
+
+.nav-list li a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/*
+  Generic Container
+*/
+
+/* 
+  Utilities 
+*/
 
 .bg1 {
   background-color: var(--sca-bg);
@@ -139,16 +159,6 @@ table.course-table, .course-table tr, .course-table th, .course-table td {
   display: block;
   list-style: none;
   width: 100%;
-}
-
-.nav-list li a {
-  color: var(--sca-color);
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.nav-list li a:hover {
-  color: firebrick;
 }
 
 .rounded {
