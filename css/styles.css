@@ -47,6 +47,7 @@ a:hover {
 }
 
 header a {
+  font-weight: bolder;
   font-size: 2.25rem;
   text-decoration: none;
 }
