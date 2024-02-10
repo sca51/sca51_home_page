@@ -114,22 +114,22 @@ header a {
   text-transform: uppercase;
 }
 
-.course-table {
+table {
   width: 100%;
 }
 
-.course-table thead {
+thead {
   text-align: left;
   text-transform: uppercase;
 }
 
-table.course-table, .course-table tr, .course-table th, .course-table td {
+table, tr, th, td {
     border-collapse: collapse;
     border-bottom: thin solid var(--sca-bg-secondary);
     padding: 0.25em;
 }
 
-.course-table caption {
+caption {
     padding-bottom: 0.1em;
 }
 
