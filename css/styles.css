@@ -16,6 +16,14 @@
   --sca-color: white;
 }
 
+a {
+  color: var(--sca-color);
+}
+
+a:hover {
+  color: firebrick;
+}
+
 body {
   background-color: var(--sca-bg);
   color: var(--sca-color);
@@ -93,15 +101,6 @@ table.course-table, .course-table tr, .course-table th, .course-table td {
     border: thin solid var(--sca-border-color);
     border-collapse: collapse;
     padding: 0.25em;
-}
-
-.course-table a {
-  color: var(--sca-color);
-  text-decoration: none;
-}
-
-.course-table a:hover {
-  color: firebrick;
 }
 
 .course-table caption {
