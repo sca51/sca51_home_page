@@ -30,6 +30,11 @@ header {
   text-align: center;
 }
 
+nav {
+  max-width: 1200px;
+  margin: auto;
+}
+
 body {
   background-color: var(--sca-bg);
   color: var(--sca-color);
