@@ -118,9 +118,14 @@ header a {
   width: 100%;
 }
 
+.course-table thead {
+  text-align: left;
+  text-transform: uppercase;
+}
+
 table.course-table, .course-table tr, .course-table th, .course-table td {
-    border: thin solid var(--sca-border-color);
     border-collapse: collapse;
+    border-bottom: thin solid var(--sca-bg-secondary);
     padding: 0.25em;
 }
 
